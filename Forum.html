@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+   <form>
+      <fieldset>
+      <legend>Personal Information</legend>
+       <label for="first-name">First Name:</label>
+       <br>
+       <input type="text" placeholder="Write your first name here" required> <br><br>
+       <label for="last-name">Last Name:</label>
+       <br>
+       <input type="text" placeholder="Write your Last name here" required>
+       <br><br>
+       <label for="email">Email:</label>
+       <br>
+       <input type="email" placeholder="Write your e-email">
+       <br><br>
+       </fieldset>
+       <fieldset>
+           <legend>Politic Affilliation</legend>
+           <label>Choose your side</label>
+           <input type="radio" name="aff"><label for="left">Left</label>
+            <input type="radio" name="aff">
+            <label for="centre">Centre</label>
+           <input type="radio" name="aff">
+            <label for="right">Right</label>
+           
+       </fieldset>
+       <fieldset>
+           <legend>Favorite Activities</legend>
+           <label>Choose all that apply</label>
+           <input type="checkbox"><label for="cricket">Cricket</label>
+           <input type="checkbox"><label for="vollyball">Vollyball</label>
+           <input type="checkbox"><label for="Football">Football</label>
+           <input type="checkbox"><label for="Hockey">Hockey</label>
+           <input type="checkbox"><label for="Tennis">Tennis</label>
+       </fieldset>
+       <fieldset>
+           <legend>Comments</legend>
+           <textarea name="txt-area1" id="" cols="30" rows="10" placeholder="Write your comment here"></textarea>
+                  </fieldset>
+                  <br> <input type="submit" value="send" >
+   </form>
+    
+</body>
+</html>
